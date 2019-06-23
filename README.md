@@ -1,7 +1,6 @@
 # Landing
 The task is to create the web-page (landing). I used HTML, CSS, JS (jQuery, Materialize).
-The results of my work you con see 
-
+The results of my work are displayed here.
 
 ![image 1](https://github.com/beliachevskaya/Landing/raw/master/prt_scr/prt_scr_1.png)
 
