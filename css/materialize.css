@@ -6446,7 +6446,12 @@ input[type=range]::-ms-thumb {
 .first-page {
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(to bottom, #a7ffeb, #fff9c4); }
+  background-image: linear-gradient(to bottom, #a7ffeb, #fff9c4);
+  position: relative; }
+  .first-page .scroll-button {
+    position: absolute;
+    bottom: 0;
+    left: 47%; }
 
 .fixed {
   position: fixed;
@@ -6478,15 +6483,24 @@ input[type=range]::-ms-thumb {
   margin-top: 5em;
   margin-bottom: 5em; }
 
-.video-panel .card-panel div {
-  margin-bottom: 2.6em; }
-.video-panel .card-panel span {
-  display: inline-block;
-  margin-top: 2.6em; }
+.video {
+  height: 350px; }
+
+.video-panel {
+  height: 350px; }
+  .video-panel .card-panel {
+    height: 167px;
+    margin-top: 0; }
+
+.img-panel {
+  height: 350px; }
+  .img-panel img {
+    width: 100%;
+    height: 100%; }
 
 .price-panel span {
   display: inline-block;
-  margin-bottom: 15em; }
+  margin-bottom: 1em; }
 
 .page-footer .row {
   margin-bottom: 0; }
@@ -6495,6 +6509,16 @@ input[type=range]::-ms-thumb {
 .page-footer .send-btn {
   margin-top: 2em;
   padding-left: 0; }
+
+.price-panel .symbol {
+  font-size: 2em;
+  font-style: bold; }
+.price-panel .price {
+  font-size: 4em; }
+.price-panel .line-through {
+  text-decoration: line-through; }
+.price-panel .underline {
+  text-decoration: underline; }
 
 .circle-line .circle {
   width: 16px;
